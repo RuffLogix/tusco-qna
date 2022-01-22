@@ -1,0 +1,54 @@
+.chakra-select.select-box.css-k7r2wc{
+    background-color: white;
+}
+
+html{
+    /* background-color: rgb(53, 41, 75); */
+    background-color: rgb(236, 218, 250);
+}
+
+.App{
+    /* background-color: rgb(53, 41, 75); */
+    background-color: rgb(236, 218, 250);
+}
+
+.container-box{
+    padding-top : 1rem;
+}
+
+.tags-box{
+    overflow: auto;
+    padding: 10px;
+}
+
+.tags-box::-webkit-scrollbar{
+    height: 5px;
+}
+
+.answer-box{
+    padding: 0.5rem;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.answer-box-::-webkit-scrollbar{
+    width : 5px;
+}
+
+.tags-box::-webkit-scrollbar-thumb , .answer-box-::-webkit-scrollbar-thumb{
+    background-color: rgb(217, 226, 235);
+}
+
+.tags-box::-webkit-scrollbar-track , .answer-box-::-webkit-scrollbar-track{
+    background-color: aliceblue;
+}
+
+.answer-box-{
+    height : 100px;
+    padding : 5px;
+    overflow: auto;
+}
+
+.blog-box:hover{
+    transform: scale(1.1);
+}
