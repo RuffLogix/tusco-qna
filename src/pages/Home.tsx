@@ -26,7 +26,7 @@ const Home = () => {
 
 	return (
 		<Container className="container-box" maxW="container.lg">
-			<Heading>Q&A : Thailand Upper Southern Computing Olympiad</Heading>
+			<Heading mt={10}>Q&A : Thailand Upper Southern Computing Olympiad</Heading>
 			<Text mt={3}>
 				ส่งคำถามมาได้ที่ :{" "}
 				<Badge colorScheme="pink">
@@ -45,6 +45,7 @@ const Home = () => {
 				className="select-box"
 				name="a"
 				onSelect={handlefilter}
+				mt={5}
 			>
 				<option value="Mathematics">Mathematics</option>
 				<option value="Basic Programming">Basic Programming</option>
